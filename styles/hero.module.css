@@ -1,0 +1,139 @@
+.hero {
+  height: 100vh;
+  background: #101012;
+  width: 100%;
+}
+.container {
+  max-width: 1300px;
+  padding: 0 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container .max {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container .max .left {
+  display: flex;
+  width: 40%;
+}
+.container .left .isi .heading {
+  color: #fff;
+  font-size: 44px;
+  font-weight: 700;
+  font-family: 'Poppins';
+}
+.container .left .isi .subHeading {
+  color: #969696;
+  font-size: 16px;
+  margin-top: 20px;
+  font-family: 'Poppins';
+}
+.container .left .isi .btn {
+  background: #2e4dec;
+  margin-top: 20px;
+  display: inline;
+  padding: 10px 24px;
+  border-radius: 50px;
+}
+.container .left .isi .btn a {
+  color: #fff;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Poppins';
+}
+.container .max .right {
+  width: 30%;
+}
+.container .right .gambar {
+  width: 500px;
+  object-fit: cover;
+}
+@media screen and (max-width: 1380px) {
+  .container .max .right {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1208px) {
+  .container .max .right {
+    width: 50%;
+  }
+  .container .right .gambar {
+    width: 450px;
+    height: 450px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 48px;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .container .max .right {
+    width: 40%;
+  }
+  .container .max .left .heading {
+    font-size: 34px;
+  }
+  .container .max .right .gambar {
+    width: 350px;
+    height: 350px;
+  }
+}
+/* @media screen and (max-width: 960px) {
+  .container .right {
+    width: 30%;
+  }
+  .container .right .gambar {
+    width: 380px;
+    height: 380px;
+  }
+} */
+@media screen and (max-width: 850px) {
+  .container .max .right {
+    width: 40%;
+  }
+  .container .max .left {
+    width: 80%;
+  }
+  .container .max .left .heading {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .container {
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .max .left {
+    width: 80%;
+  }
+  .container .max .right {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hero {
+    padding-top: 18px;
+  }
+  .container .left .isi .heading {
+    font-size: 28px;
+  }
+  .container .left .isi .subHeading {
+    font-size: 14px;
+  }
+  .container .left .isi .btn {
+    font-size: 14px;
+  }
+  .container .right .gambar {
+    width: 280px;
+    height: 280px;
+  }
+}

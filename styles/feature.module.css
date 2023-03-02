@@ -1,0 +1,122 @@
+.feature{
+    background: #101012;
+}
+.container {
+  padding: 0 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.container .left .image {
+  width: 350px;
+  height: 350px;
+}
+.container .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.container .right .heading {
+  font-size: 38px;
+  color: #fff;
+}
+.container .right .paragraph {
+  font-size: 18px;
+  font-weight: 300;
+  color: #6f7c7c;
+}
+.container .right .detail {
+  display: flex;
+  justify-content: space-around;
+}
+.container .right .detail_sub {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+.container .right .detail_sub .heading1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 28px;
+  color: #fff;
+}
+.container .right .detail_sub .paragraph1 {
+  text-align: center;
+  font-weight: 300;
+  color: #6f7c7c;
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .container .left .gambar {
+    width: 300px;
+    height: 300px;
+  }
+  .container .right .heading {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container .left {
+    padding-bottom: 20px;
+  }
+  .container .right {
+    display: flex;
+    align-items: center;
+  }
+  .container .right .heading {
+    padding-bottom: 6px;
+  }
+  .container .right .paragraph {
+    padding: 20px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 710px) {
+    .container .right .detail{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container .right .detail_sub{
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .container .right .heading{
+        font-size: 28px;
+    }
+    .container .right .paragraph{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 480px) {
+  .container .right .detail_sub{
+    margin-right: 20px;
+  }
+  .container .right .heading{
+    font-size: 24px;
+    text-align: center;
+  }
+  .container .right .paragraph{
+    font-size: 14px;
+  }
+  .container .right .detail_sub .heading1{
+    font-size: 20px;
+  }
+  .container .right .detail_sub .paragraph1{
+    font-size: 14px;
+  }
+  .container .left .gambar{
+    width: 250px;
+    height: 250px;
+  }
+}

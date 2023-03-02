@@ -1,0 +1,329 @@
+[
+  {
+    "id": 1,
+    "image": "/asset/Product/phantom4rtk.png",
+    "tag": "Garansi",
+    "rating": "4.9",
+    "heading": "Phantom 4 RTK",
+    "price": "22000000",
+    "stock": 12,
+    "paragraph": "Phantom 4 Pro V2.0 menggunakan kamera yang sama dengan Phantom 4 Pro dan dilengkapi dengan sensor 1-inch 20-megapixel yang mampu merekam video 4K / 60fps pada 100Mbps. Juga, seperti Phantom 4 Pro, V2.0 waktu penerbangan maksimum 30 menit dan kontrol jarak jauh 7-kilometer. Remote Phantom 4 Pro V2.0 juga mendukung pengalihan frekuensi 2,4 dan 5,8 GHz.",
+    "feature": [
+      {
+        "camera": "4K Camera Resolution",
+        "memory": "2 TB Storage",
+        "speed": "60 m/s Speed",
+        "battery": "30-Min Max Flight Time"
+      }
+    ],
+    "img": ["/asset/Product/phantom4rtk.png", "/asset/detailP/phantom4rtk2.jpg", "/asset/detailP/phantom4rtk1.jpg", "/asset/detailP/phantom4rtk3.jpg"],
+    "category": "phantom",
+    "review": [
+      {
+        "name": "Ahmad",
+        "job": "Front end dev",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Admin san-gat fast respon, pelayanan sangat baik, dan produk terpercaya. Puas belanja di Wearinasia",
+        "rate": "4.8",
+        "date": "Jul 12,2022 "
+      },
+      {
+        "name": "Reyhan",
+        "job": "Back end dev",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Pengiriman sangat cepat dan mudah Barang datang dengan keadaan baik",
+        "rate": "5.0",
+        "date": "Jun 14,2021 "
+      },
+      {
+        "name": "Zidane",
+        "job": "Front end dev",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Kualitas produk sangat bagus",
+        "rate": "4.9",
+        "date": "Aug  9,2022 "
+      },
+      {
+        "name": "Naufal",
+        "job": "Actor",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Barang datang dengan keadaan baik",
+        "rate": "5.0",
+        "date": "Sep 30,2021"
+      }
+    ],
+    "detail_product" : [
+      ""
+    ]
+  },
+  {
+    "id": 2,
+    "image": "/asset/Product/mavic3.png",
+    "tag": "Garansi",
+    "rating": "4.8",
+    "heading": "Mavic 3",
+    "price": "31000000",
+    "stock": 10,
+    "paragraph": "Tangkap citra menakjubkan dengan kamera Hasselblad yang legendaris dan nikmati penerbangan mulus dengan penginderaan rintangan segala arah. Setiap peningkatan pada Mavic 3 menetapkan standar yang lebih tinggi untuk fotografi udara. Terbang dengan Mavic 3 dan temukan pencitraan di atas segalanya.",
+    "feature": [
+      {
+        "camera": "5.1K Camera Resolution",
+        "memory": "1.5 TB Storage",
+        "speed": "40 m/s Speed",
+        "battery": "46-Min Max Flight Time"
+      }
+    ],
+    "img": ["/asset/Product/mavic3.png", "/asset/detailP/mavic3.jpg", "/asset/detailP/mavic31.jpg", "/asset/detailP/mavic32.jpg"],
+    "category": "mavic",
+    "review": [
+      {
+        "name": "Ahmad",
+        "job": "Front end dev",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Admin san-gat fast respon, pelayanan sangat baik, dan produk terpercaya. Puas belanja di Wearinasia",
+        "rate": "4.8",
+        "date": "Jul 12,2022 "
+      },
+      {
+        "name": "Reyhan",
+        "job": "Back end dev",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Pengiriman sangat cepat dan mudah Barang datang dengan keadaan baik",
+        "rate": "5.0",
+        "date": "Jun 14,2021 "
+      },
+      {
+        "name": "Zidane",
+        "job": "Front end dev",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Kualitas produk sangat bagus",
+        "rate": "4.9",
+        "date": "Aug  9,2022 "
+      },
+      {
+        "name": "Naufal",
+        "job": "Actor",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Barang datang dengan keadaan baik",
+        "rate": "5.0",
+        "date": "Sep 30,2021"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "/asset/Product/avata.png",
+    "tag": "Garansi",
+    "rating": "5.0",
+    "heading": "Avata",
+    "price": "20000000",
+    "stock": 14,
+    "paragraph": "Benamkan diri Anda dalam perendaman total saat Anda menukik dan menyelam tidak seperti sebelumnya. Kombinasikan Avata dengan kacamata DJI untuk pengalaman terbang yang nyata",
+    "feature": [
+      {
+        "camera": "4K/60fps Camera Resolution",
+        "memory": "1.5 TB Storage",
+        "speed": "40 m/s Speed",
+        "battery": "46-Min Max Flight Time"
+      }
+    ],
+    "img": ["/asset/Product/avata.png", "/asset/detailP/avata.jpg", "/asset/detailP/avata1.jpg", "/asset/detailP/avata2.jpg"],
+    "category": "avata",
+    "review": [
+      {
+        "name": "Ahmad",
+        "job": "Front end dev",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Admin san-gat fast respon, pelayanan sangat baik, dan produk terpercaya. Puas belanja di Wearinasia",
+        "rate": "4.8",
+        "date": "Jul 12,2022 "
+      },
+      {
+        "name": "Reyhan",
+        "job": "Back end dev",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Pengiriman sangat cepat dan mudah Barang datang dengan keadaan baik",
+        "rate": "5.0",
+        "date": "Jun 14,2021 "
+      },
+      {
+        "name": "Zidane",
+        "job": "Front end dev",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Kualitas produk sangat bagus",
+        "rate": "4.9",
+        "date": "Aug  9,2022 "
+      },
+      {
+        "name": "Naufal",
+        "job": "Actor",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Barang datang dengan keadaan baik",
+        "rate": "5.0",
+        "date": "Sep 30,2021"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "/asset/Product/mavic3classic.png",
+    "tag": "Tidak bergaransi",
+    "rating": "4.5",
+    "heading": "Mavic 3 Classic",
+    "price": "7000000",
+    "stock": 16,
+    "paragraph": "Dengan performa terbang yang kuat dan kamera Hasselblad, Mavic 3 Classic menghadirkan esensi mutlak dari pencitraan unggulan. Lakukan petualangan apa pun untuk menciptakan karya yang tak terlupakan.",
+    "feature": [
+      {
+        "camera": "5.1K Camera Resolution",
+        "memory": "1 TB Storage",
+        "speed": "40 m/s Speed",
+        "battery": "46-Min Max Flight Time"
+      }
+    ],
+    "img": ["/asset/Product/mavic3classic.png", "/asset/detailP/mavic3classic.jpg", "/asset/detailP/mavic3classic1.jpg", "/asset/detailP/mavic3classic2.jpg"],
+    "category": "mavic",
+    "review": [
+      {
+        "name": "Ahmad",
+        "job": "Front end dev",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Admin san-gat fast respon, pelayanan sangat baik, dan produk terpercaya. Puas belanja di Wearinasia",
+        "rate": "4.8",
+        "date": "Jul 12,2022 "
+      },
+      {
+        "name": "Reyhan",
+        "job": "Back end dev",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Pengiriman sangat cepat dan mudah Barang datang dengan keadaan baik",
+        "rate": "5.0",
+        "date": "Jun 14,2021 "
+      },
+      {
+        "name": "Zidane",
+        "job": "Front end dev",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Kualitas produk sangat bagus",
+        "rate": "4.9",
+        "date": "Aug  9,2022 "
+      },
+      {
+        "name": "Naufal",
+        "job": "Actor",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Barang datang dengan keadaan baik",
+        "rate": "5.0",
+        "date": "Sep 30,2021"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "/asset/Product/mini3pro.png",
+    "tag": "Garansi",
+    "rating": "4.9",
+    "heading": "Mini 3 Pro",
+    "price": "10000000",
+    "stock": 18,
+    "paragraph": "DJI Mini 3 Pro berukuran mini dan berkemampuan mega sama kuatnya dengan portabel. Beratnya kurang dari 249 g dan dengan fitur keselamatan yang ditingkatkan, tidak hanya ramah regulasi, tetapi juga yang paling aman di serinya. Dengan sensor 1/1.3-inci dan fitur tingkat atas, ini mendefinisikan ulang apa artinya menerbangkan Mini.",
+    "feature": [
+      {
+        "camera": "Up to 4K/60fps Video and 4K/30fps HDR Video",
+        "memory": "500 MB Storage",
+        "speed": "50 m/s Speed",
+        "battery": "34-Min Max Flight Time"
+      }
+    ],
+    "img": ["/asset/Product/mini3pro.png", "/asset/detailP/mini3.jpg", "/asset/detailP/mini31.jpg", "/asset/detailP/mini32.jpg"],
+    "category": "mini",
+    "review": [
+      {
+        "name": "Ahmad",
+        "job": "Front end dev",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Admin san-gat fast respon, pelayanan sangat baik, dan produk terpercaya. Puas belanja di Wearinasia",
+        "rate": "4.8",
+        "date": "Jul 12,2022 "
+      },
+      {
+        "name": "Reyhan",
+        "job": "Back end dev",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Pengiriman sangat cepat dan mudah Barang datang dengan keadaan baik",
+        "rate": "5.0",
+        "date": "Jun 14,2021 "
+      },
+      {
+        "name": "Zidane",
+        "job": "Front end dev",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Kualitas produk sangat bagus",
+        "rate": "4.9",
+        "date": "Aug  9,2022 "
+      },
+      {
+        "name": "Naufal",
+        "job": "Actor",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Barang datang dengan keadaan baik",
+        "rate": "5.0",
+        "date": "Sep 30,2021"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "/asset/Product/phantom4pro.png",
+    "tag": "Garansi",
+    "rating": "4.8",
+    "stock": 20,
+    "heading": "Phantom 4 Pro",
+    "price": "25000000",
+    "paragraph": "Phantom 4 Pro V2.0 menggunakan kamera yang sama dengan Phantom 4 Pro dan dilengkapi dengan sensor 1-inch 20-megapixel yang mampu merekam video 4K / 60fps pada 100Mbps. Juga, seperti Phantom 4 Pro, V2.0 waktu penerbangan maksimum 30 menit dan kontrol jarak jauh 7-kilometer. Remote Phantom 4 Pro V2.0 juga mendukung pengalihan frekuensi 2,4 dan 5,8 GHz.",
+    "feature": [
+      {
+        "camera": "4K Camera Resolution",
+        "memory": "2 TB Storage",
+        "speed": "60 m/s Speed",
+        "battery": "30-Min Max Flight Time"
+      }
+    ],
+    "img": ["/asset/Product/phantom4rtk.png", "/asset/detailP/phantom4rtk2.jpg", "/asset/detailP/phantom4rtk1.jpg", "/asset/detailP/phantom4rtk3.jpg"],
+    "category": "phantom",
+    "review": [
+      {
+        "name": "Ahmad",
+        "job": "Front end dev",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Admin san-gat fast respon, pelayanan sangat baik, dan produk terpercaya. Puas belanja di Wearinasia",
+        "rate": "4.8",
+        "date": "Jul 12,2022 "
+      },
+      {
+        "name": "Reyhan",
+        "job": "Back end dev",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Pengiriman sangat cepat dan mudah Barang datang dengan keadaan baik",
+        "rate": "5.0",
+        "date": "Jun 14,2021 "
+      },
+      {
+        "name": "Zidane",
+        "job": "Front end dev",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Kualitas produk sangat bagus",
+        "rate": "4.9",
+        "date": "Aug  9,2022 "
+      },
+      {
+        "name": "Naufal",
+        "job": "Actor",
+        "img": "/asset/reviews/Review.png",
+        "comment": "Barang datang dengan keadaan baik",
+        "rate": "5.0",
+        "date": "Sep 30,2021"
+      }
+    ]
+  }
+]

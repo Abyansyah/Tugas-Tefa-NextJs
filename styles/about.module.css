@@ -1,0 +1,142 @@
+.detail {
+  background: #000;
+}
+.container {
+  width: 100%;
+  padding: 0 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.heading {
+  text-align: center;
+  color: #fff;
+  font-size: 34px;
+  margin-bottom: 40px;
+}
+.container .left {
+  display: flex;
+  flex-direction: column;
+}
+.container .left .left_content {
+  background-image: url('../public/asset/exac2.png');
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  background-position: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+}
+.container .left .left_content h1 {
+  padding-top: 100px;
+  color: #222;
+  font-size: 34px;
+  font-weight: 600;
+}
+.container .left .left_content p {
+  font-size: 18px;
+  padding-top: 20px;
+  color: #6f7c7c;
+  text-align: center;
+  font-weight: 400;
+}
+
+.container .left .left_content p span {
+  color: #222;
+}
+.container .right {
+  display: flex;
+  flex-direction: column;
+}
+.container .right .right_content {
+  background-image: url('../public/asset/exac.png');
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+}
+.container .right .right_content h1 {
+  padding-top: 100px;
+  color: #fff;
+  font-size: 34px;
+  font-weight: 600;
+}
+.container .right .right_content p {
+  font-size: 18px;
+  padding-top: 20px;
+  color: #6f7c7c;
+  text-align: center;
+  font-weight: 400;
+}
+.container .right .right_content p span {
+  color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .container .right .right_content {
+    width: 400px;
+    height: 400px;
+  }
+  .container .right .right_content h1 {
+    font-size: 28px;
+    padding-top: 80px;
+  }
+  .container .right .right_content p {
+    font-size: 16px;
+    padding-top: 16px;
+  }
+  .container .left .left_content {
+    width: 400px;
+    height: 400px;
+  }
+  .container .left .left_content h1 {
+    font-size: 28px;
+    padding-top: 80px;
+  }
+  .container .left .left_content p {
+    font-size: 16px;
+    padding-top: 16px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container .right {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .container .left .left_content {
+    width: 350px;
+    height: 350px;
+  }
+  .container .left .left_content h1 {
+    font-size: 24px;
+    padding-top: 60px;
+  }
+  .container .left .left_content p {
+    font-size: 14px;
+    padding-top: 14px;
+  }
+  .container .right .right_content {
+    width: 350px;
+    height: 350px;
+  }
+  .container .right .right_content h1 {
+    font-size: 24px;
+    padding-top: 60px;
+  }
+  .container .right .right_content p {
+    font-size: 14px;
+    padding-top: 14px;
+  }
+}

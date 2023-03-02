@@ -108,7 +108,7 @@
 }
 .post_content .price p{
     padding-top: 10px;
-    font-size: 24px;
+    font-size: 20px;
 }
 .post_content p i {
   font-size: 12px;
@@ -120,7 +120,7 @@
 .post_title h4 {
   display: block;
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.5px;

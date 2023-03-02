@@ -123,10 +123,38 @@ function DetailProduk({ data }) {
                 <p className={styles.item_des}>{data.paragraph}</p>
               </div>
             </div>
-            <div className={styles.desc}>
-              <div className={styles.item}>
-                <h1 className={styles.item_head}>Detail Product</h1>
-                <p className={styles.item_des}>{data.paragraph}</p>
+            <div className={styles.spec}>
+              <div className={styles.spec_wrap}>
+                <div className={styles.spec_item}>
+                  <h1 className={styles.spec_head}>Feature : </h1>
+                  <div className={styles.feature}>
+                    {data.detail_product.map((elem, key) => (
+                      <ul className={styles.feature_list} key={key}>
+                        <li className={styles.list}>{elem}</li>
+                      </ul>
+                    ))}
+                  </div>
+                </div>
+                <div className={styles.spec_item}>
+                  <h1 className={styles.spec_head}>Specification : </h1>
+                  <div className={styles.feature}>
+                    {data.specification.map((elem, key) => (
+                      <ul className={styles.feature_list} key={key}>
+                        <li className={styles.list}>{elem}</li>
+                      </ul>
+                    ))}
+                  </div>
+                </div>
+                <div className={styles.spec_item}>
+                  <h1 className={styles.spec_head}>In the box : </h1>
+                  <div className={styles.feature}>
+                    {data.inbox.map((elem, key) => (
+                      <ul className={styles.feature_list} key={key}>
+                        <li className={styles.list}>{elem}</li>
+                      </ul>
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
             <div className={styles.review}>

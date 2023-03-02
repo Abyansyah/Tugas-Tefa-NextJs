@@ -1,4 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,5 +35,5 @@ ul {
   padding: 0;
 }
 section {
-  padding: 60px 0 ;
+  padding: 60px 0;
 }

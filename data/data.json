@@ -20,40 +20,60 @@
     "category": "phantom",
     "review": [
       {
-        "name": "Ahmad",
-        "job": "Front end dev",
-        "img": "/asset/reviews/Review.png",
+        "name": "Tifa",
+        "job": "Software Engineer",
+        "img": "https://xsgames.co/randomusers/assets/avatars/female/78.jpg",
         "comment": "Admin san-gat fast respon, pelayanan sangat baik, dan produk terpercaya. Puas belanja di Wearinasia",
         "rate": "4.8",
         "date": "Jul 12,2022 "
       },
       {
-        "name": "Reyhan",
-        "job": "Back end dev",
-        "img": "/asset/reviews/Review.png",
+        "name": "Anton",
+        "job": "Network Engineer",
+        "img": "https://xsgames.co/randomusers/assets/avatars/male/35.jpg",
         "comment": "Pengiriman sangat cepat dan mudah Barang datang dengan keadaan baik",
         "rate": "5.0",
         "date": "Jun 14,2021 "
       },
       {
-        "name": "Zidane",
-        "job": "Front end dev",
-        "img": "/asset/reviews/Review.png",
+        "name": "Lany",
+        "job": "Cloud Architect",
+        "img": "https://xsgames.co/randomusers/assets/avatars/female/45.jpg",
         "comment": "Kualitas produk sangat bagus",
         "rate": "4.9",
         "date": "Aug  9,2022 "
       },
       {
-        "name": "Naufal",
-        "job": "Actor",
-        "img": "/asset/reviews/Review.png",
+        "name": "Tomy",
+        "job": "Security Analyst",
+        "img": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg",
         "comment": "Barang datang dengan keadaan baik",
         "rate": "5.0",
         "date": "Sep 30,2021"
       }
     ],
-    "detail_product" : [
-      ""
+    "detail_product": [
+      "Dilengkapi RTK Modul untuk positioning mencapai centimeter.",
+      "Kamera 20 MP dengan 1″ CMOS dengan teknologi minim distorsi.",
+      "Timesync system untuk akurasi posisi secara real-time.",
+      "GS RTK App yang memudahkan dalam membuat misi pemetaan.",
+      "OcuSync membuat range lebih jauh.",
+      "D-RTK 2 Mobile Station untuk akurasi sub milimeter."
+    ],
+    "specification": ["Aircraft", "Takeoff Weight 1391 g", "Diagonal Distance 350 mm", "Max Descent Speed 3 m/s", "36 mph (58 kph)(A-mode)", "Max Flight Time Approx. 30 minutes"],
+    "inbox": [
+      "Aircraft x 1",
+      "Remote control with screen x 1",
+      "Propeller x 4 pairs",
+      "Intelligent Flight Battery x 2",
+      "65w portable charger x 1",
+      "Gimbal lock x 1",
+      "MicroSD Card x 1",
+      "Micro USB cable x 1",
+      "USB-C cable x 1",
+      "USB-C OTG cable x 1",
+      "Wireless network card x 1",
+      "Carrying case x 1"
     ]
   },
   {
@@ -77,37 +97,53 @@
     "category": "mavic",
     "review": [
       {
-        "name": "Ahmad",
-        "job": "Front end dev",
-        "img": "/asset/reviews/Review.png",
-        "comment": "Admin san-gat fast respon, pelayanan sangat baik, dan produk terpercaya. Puas belanja di Wearinasia",
+        "name": "Khansa",
+        "job": "UI/UX Desaigner",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=khansa",
+        "comment": "Admin sangat fast respon, pelayanan sangat baik, dan produk terpercaya. Puas belanja di Wearinasia",
         "rate": "4.8",
         "date": "Jul 12,2022 "
       },
       {
-        "name": "Reyhan",
-        "job": "Back end dev",
-        "img": "/asset/reviews/Review.png",
+        "name": "Syfa",
+        "job": "Data Scient",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=syifa",
         "comment": "Pengiriman sangat cepat dan mudah Barang datang dengan keadaan baik",
         "rate": "5.0",
         "date": "Jun 14,2021 "
       },
       {
-        "name": "Zidane",
+        "name": "Rafli",
         "job": "Front end dev",
-        "img": "/asset/reviews/Review.png",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=Rafli",
         "comment": "Kualitas produk sangat bagus",
         "rate": "4.9",
         "date": "Aug  9,2022 "
       },
       {
-        "name": "Naufal",
-        "job": "Actor",
-        "img": "/asset/reviews/Review.png",
+        "name": "Zaki",
+        "job": "Digital Marketer",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=zaki",
         "comment": "Barang datang dengan keadaan baik",
         "rate": "5.0",
         "date": "Sep 30,2021"
       }
+    ],
+    "detail_product": ["Kamera Hasselblad CMOS 4/3", "Video 5.1K HD", "Waktu Penerbangan Maks 46 Menit", "Penginderaan Rintangan Omnidirectional", "Transmisi Video HD 15km", "Advanced Return to Home"],
+    "specification": ["Video 5.1K HD", "Waktu Penerbangan Maks 46 Menit", "Capacity 5000 mAh", "Type LiPo 4S", "Energy 77 Wh", "Rated Power 65 W"],
+    "inbox": [
+      "Aircraft x 1",
+      "Remote control with screen x 1",
+      "Propeller x 4 pairs",
+      "Intelligent Flight Battery x 2",
+      "65w portable charger x 1",
+      "Gimbal lock x 1",
+      "MicroSD Card x 1",
+      "Micro USB cable x 1",
+      "USB-C cable x 1",
+      "USB-C OTG cable x 1",
+      "Wireless network card x 1",
+      "Carrying case x 1"
     ]
   },
   {
@@ -131,37 +167,52 @@
     "category": "avata",
     "review": [
       {
-        "name": "Ahmad",
-        "job": "Front end dev",
-        "img": "/asset/reviews/Review.png",
+        "name": "Fadil",
+        "job": "Product Manager",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=Fadil",
         "comment": "Admin san-gat fast respon, pelayanan sangat baik, dan produk terpercaya. Puas belanja di Wearinasia",
         "rate": "4.8",
         "date": "Jul 12,2022 "
       },
       {
-        "name": "Reyhan",
-        "job": "Back end dev",
-        "img": "/asset/reviews/Review.png",
+        "name": "Diva",
+        "job": "Financial planner/advisor",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=diva",
         "comment": "Pengiriman sangat cepat dan mudah Barang datang dengan keadaan baik",
         "rate": "5.0",
         "date": "Jun 14,2021 "
       },
       {
-        "name": "Zidane",
-        "job": "Front end dev",
-        "img": "/asset/reviews/Review.png",
+        "name": "Angga",
+        "job": "Event Planner",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=angga",
         "comment": "Kualitas produk sangat bagus",
         "rate": "4.9",
         "date": "Aug  9,2022 "
       },
       {
-        "name": "Naufal",
-        "job": "Actor",
-        "img": "/asset/reviews/Review.png",
+        "name": "Fira",
+        "job": "Virtual Asistant",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=fira",
         "comment": "Barang datang dengan keadaan baik",
         "rate": "5.0",
         "date": "Sep 30,2021"
       }
+    ],
+    "detail_product": ["Smart batteries offer reasonable flight times", "Robust cinewhoop design", "Cinema-Ready 4K Camera", "Advanced EIS", "O3+ Video Transmission", "Built-In Propeller Guards"],
+    "specification": ["180×180×80mm", "Waktu Penerbangan Maks 46 Menit", "H.264 and H.265 video codecs", "Type LiPo 4S", "18-minute max flight time", "4K/60p and 2.7K/100p "],
+    "inbox": [
+      "Aircraft x 1",
+      "Remote control with screen x 1",
+      "Propeller x 4 pairs",
+      "Intelligent Flight Battery x 2",
+      "Gimbal lock x 1",
+      "MicroSD Card x 1",
+      "Micro USB cable x 1",
+      "USB-C cable x 1",
+      "USB-C OTG cable x 1",
+      "Wireless network card x 1",
+      "Carrying case x 1"
     ]
   },
   {
@@ -185,37 +236,52 @@
     "category": "mavic",
     "review": [
       {
-        "name": "Ahmad",
-        "job": "Front end dev",
-        "img": "/asset/reviews/Review.png",
+        "name": "Nadin",
+        "job": "Travel Blogger",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=Nadhine",
         "comment": "Admin san-gat fast respon, pelayanan sangat baik, dan produk terpercaya. Puas belanja di Wearinasia",
         "rate": "4.8",
         "date": "Jul 12,2022 "
       },
       {
-        "name": "Reyhan",
+        "name": "Absa",
         "job": "Back end dev",
-        "img": "/asset/reviews/Review.png",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=absa",
         "comment": "Pengiriman sangat cepat dan mudah Barang datang dengan keadaan baik",
         "rate": "5.0",
         "date": "Jun 14,2021 "
       },
       {
-        "name": "Zidane",
-        "job": "Front end dev",
-        "img": "/asset/reviews/Review.png",
+        "name": "Najwa",
+        "job": "Freelance Writer/Editor",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=najwa",
         "comment": "Kualitas produk sangat bagus",
         "rate": "4.9",
         "date": "Aug  9,2022 "
       },
       {
-        "name": "Naufal",
-        "job": "Actor",
-        "img": "/asset/reviews/Review.png",
+        "name": "Rindha",
+        "job": "Online educator/tutor",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=rindha",
         "comment": "Barang datang dengan keadaan baik",
         "rate": "5.0",
         "date": "Sep 30,2021"
       }
+    ],
+    "detail_product": ["Advanced AI: The Mavic 3 includes advanced AI ", "ActiveTrack Spotlight: This feature allows the drone", "OcuSync 3.0: This technology allows for improved video transmission", "ActiveTrack 4.0: This feature allows the drone to track"],
+    "specification": ["5.1K/50fps Professional Imagery", "4/3 CMOS Hasselblad Camera", "15km HD Video Transmission", "Advanced RTH", "DJI RC (5.5-inch HD Display)", "Omnidirectional Obstacle Sensing"],
+    "inbox": [
+      "Aircraft x 1",
+      "Remote control with screen x 1",
+      "Propeller x 4 pairs",
+      "Intelligent Flight Battery x 2",
+      "Gimbal lock x 1",
+      "MicroSD Card x 1",
+      "Micro USB cable x 1",
+      "USB-C cable x 1",
+      "USB-C OTG cable x 1",
+      "Wireless network card x 1",
+      "Carrying case x 1"
     ]
   },
   {
@@ -239,37 +305,52 @@
     "category": "mini",
     "review": [
       {
-        "name": "Ahmad",
-        "job": "Front end dev",
-        "img": "/asset/reviews/Review.png",
+        "name": "Dita",
+        "job": "Sustainability specialist",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=Dita",
         "comment": "Admin san-gat fast respon, pelayanan sangat baik, dan produk terpercaya. Puas belanja di Wearinasia",
         "rate": "4.8",
         "date": "Jul 12,2022 "
       },
       {
-        "name": "Reyhan",
+        "name": "Azahra",
         "job": "Back end dev",
-        "img": "/asset/reviews/Review.png",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=azahra",
         "comment": "Pengiriman sangat cepat dan mudah Barang datang dengan keadaan baik",
         "rate": "5.0",
         "date": "Jun 14,2021 "
       },
       {
-        "name": "Zidane",
+        "name": "Anya",
         "job": "Front end dev",
-        "img": "/asset/reviews/Review.png",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=Anyas",
         "comment": "Kualitas produk sangat bagus",
         "rate": "4.9",
         "date": "Aug  9,2022 "
       },
       {
-        "name": "Naufal",
-        "job": "Actor",
-        "img": "/asset/reviews/Review.png",
+        "name": "Indy",
+        "job": "Social media manager",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=Indy",
         "comment": "Barang datang dengan keadaan baik",
         "rate": "5.0",
         "date": "Sep 30,2021"
       }
+    ],
+    "detail_product": ["OcuSync 2.0 transmission technology with a range of up to 10km", "ActiveTrack Spotlight: This feature allows the drone", "Advanced safety features,", "Compatible with the DJI Fly app"],
+    "specification": ["Weighs Less than 249 g", "Record Up to 4K/60fps", "34-min Max Flight Time", "Advanced RTH", "True Vertical Shooting", "MasterShots"],
+    "inbox": [
+      "Aircraft x 1",
+      "Remote control with screen x 1",
+      "Propeller x 4 pairs",
+      "Intelligent Flight Battery x 2",
+      "Gimbal lock x 1",
+      "MicroSD Card x 1",
+      "Micro USB cable x 1",
+      "USB-C cable x 1",
+      "USB-C OTG cable x 1",
+      "Wireless network card x 1",
+      "Carrying case x 1"
     ]
   },
   {
@@ -293,37 +374,52 @@
     "category": "phantom",
     "review": [
       {
-        "name": "Ahmad",
+        "name": "Alya",
         "job": "Front end dev",
-        "img": "/asset/reviews/Review.png",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=Alya",
         "comment": "Admin san-gat fast respon, pelayanan sangat baik, dan produk terpercaya. Puas belanja di Wearinasia",
         "rate": "4.8",
         "date": "Jul 12,2022 "
       },
       {
-        "name": "Reyhan",
-        "job": "Back end dev",
-        "img": "/asset/reviews/Review.png",
+        "name": "Thoriq",
+        "job": "Graphic designer/illustrator",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=Thoriq",
         "comment": "Pengiriman sangat cepat dan mudah Barang datang dengan keadaan baik",
         "rate": "5.0",
         "date": "Jun 14,2021 "
       },
       {
-        "name": "Zidane",
-        "job": "Front end dev",
-        "img": "/asset/reviews/Review.png",
+        "name": "Varil",
+        "job": "User research specialist",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=varil",
         "comment": "Kualitas produk sangat bagus",
         "rate": "4.9",
         "date": "Aug  9,2022 "
       },
       {
-        "name": "Naufal",
-        "job": "Actor",
-        "img": "/asset/reviews/Review.png",
+        "name": "Fahmi",
+        "job": "Entrepreneur/startup founder",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=fahmi",
         "comment": "Barang datang dengan keadaan baik",
         "rate": "5.0",
         "date": "Sep 30,2021"
       }
+    ],
+    "detail_product": ["drone is equipped with a 20-megapixel camera capable of shooting 4K ", "he drone has sensors on all sides that enable it to avoid obstacles ", "The DJI Phantom 4 Pro has a flight time of up to 28 minutes", "The drone comes with a range of intelligent flight modes,"],
+    "specification": ["Weighs Less than 249 g", "Record Up to 4K/60fps", "34-min Max Flight Time", "Advanced RTH", "True Vertical Shooting", "MasterShots"],
+    "inbox": [
+      "Aircraft x 1",
+      "Remote control with screen x 1",
+      "Propeller x 4 pairs",
+      "Intelligent Flight Battery x 2",
+      "Gimbal lock x 1",
+      "MicroSD Card x 1",
+      "Micro USB cable x 1",
+      "USB-C cable x 1",
+      "USB-C OTG cable x 1",
+      "Wireless network card x 1",
+      "Carrying case x 1"
     ]
   }
 ]

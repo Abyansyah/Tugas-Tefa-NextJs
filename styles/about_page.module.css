@@ -1,0 +1,50 @@
+.about {
+  background: #101012;
+  padding-top: 6rem;
+}
+
+.container {
+  padding: 0 80px;
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.heading {
+  color: #fff;
+  text-align: center;
+}
+.why {
+  width: 100%;
+  display: flex;
+  column-gap: 80px;
+}
+.why .why_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  width: 100%;
+}
+.why_content .ket {
+  font-size: 14px;
+  color: #6c7073;
+  text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+  .why {
+    column-gap: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about{
+    padding-top: 7rem;
+  }
+  .why {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}

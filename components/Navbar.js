@@ -13,7 +13,7 @@ function Navbar() {
   };
 
   const changeBackground = () => {
-    if (typeof window !== 'undefined' && window.scrollY >= 150) {
+    if (typeof window !== 'undefined' && window.scrollY >= 100) {
       setNavbar(true);
     } else {
       setNavbar(false);

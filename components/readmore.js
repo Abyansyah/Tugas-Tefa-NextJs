@@ -10,9 +10,9 @@ function ReadMore({ content }) {
 
   return (
     <>
-      <p>{showFullContent ? content : `${content.slice(0, 60)}...`}</p>
+      <p>{showFullContent ? content : `${content.slice(0, 70)}...`}</p>
       <button className={styles.btn_more} onClick={toggleContent}>
-        {showFullContent ? 'Show Less' : 'Read More'}
+        {showFullContent ? '' : ''}
       </button>
     </>
   );

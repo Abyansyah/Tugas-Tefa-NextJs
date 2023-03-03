@@ -6,7 +6,7 @@ import About from 'ahmad/components/about';
 function DetAbout() {
   return (
     <>
-      <RootLayout>
+      <RootLayout tittle="About page">
         <section className={styles.about}>
           <div className={styles.container}>
             <h1 className={styles.heading}>Why Choose us?</h1>

@@ -19,7 +19,7 @@ export default function Home() {
                     <h1 className={styles.heading}>The Ultraportable Drone for the Best Video</h1>
                     <p className={styles.subHeading}>Look up the sky and beautiful world with simple navigation. Just record anmd get a lot memories to share, lighlty and fast like a lightning</p>
                     <button className={styles.btn}>
-                      <Link href='/Product'>Buy Now</Link>
+                      <Link href="/Product">Buy Now</Link>
                     </button>
                   </div>
                 </div>
@@ -29,7 +29,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <About />
+          {/* <About /> */}
           <Feature />
         </main>
       </RootLayout>

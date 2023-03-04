@@ -12,10 +12,10 @@ function DetAbout() {
         <section className={styles.about}>
           <h1 className={styles.heading1}>About Us</h1>
           <div className={styles.container}>
-            <div className={styles.left_content}>
+            <div data-aos="zoom-in" className={styles.left_content}>
               <Image className={styles.img} src="/asset/about.png" width={500} height={500} />
             </div>
-            <div className={styles.right_content}>
+            <div data-aos="zoom-in" className={styles.right_content}>
               <p className={styles.paragraph}>
                 At GJI Drone Store, we're passionate about all things drones. Our team of experienced drone pilots and technicians has been providing high-quality products and services to customers for over 5 years. We pride ourselves on
                 our commitment to customer satisfaction and our dedication to staying at the forefront of the drone industry. Our mission is to provide our customers with the best selection of drones and accessories at competitive prices.

@@ -38,7 +38,6 @@ function Product() {
             <h2>Product</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, temporibus consequuntur dicta ullam illo facere.</p>
             <div className={styles.product_line}></div>
-            {/* {getFiltered(items)} */}
           </div>
 
           <div data-aos="zoom-in" className={styles.nav}>

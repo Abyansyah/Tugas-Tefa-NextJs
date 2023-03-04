@@ -18,7 +18,7 @@ function RecProduct() {
       <div className={styles.container}>
         <h1 className={styles.head}>New Products</h1>
         <p className={styles.para}>New innovation, best quality than before. Make every moment flying operation become unforgettable.</p>
-        <div className={styles.card}>
+        <div data-aos="fade-up" className={styles.card}>
           {newProduct.map((item) => (
             <div className={styles.card_item}>
               <Image className={styles.img} src={item.image} width={299} height={299} />  

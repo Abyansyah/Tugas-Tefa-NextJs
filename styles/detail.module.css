@@ -388,6 +388,7 @@
 @media screen and (max-width: 440px) {
   .container {
     max-width: 700px;
+    padding: 0 30px;
   }
   .content .left_content .column_top {
     max-width: 100%;

@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import styles from 'ahmad/styles/product.module.css';
 
-function ReadMore({ content }) {
+function ReadMore({ content, slice, classname }) {
   const [showFullContent, setShowFullContent] = useState(false);
 
   const toggleContent = () => {
@@ -10,10 +9,7 @@ function ReadMore({ content }) {
 
   return (
     <>
-      <p>{showFullContent ? content : `${content.slice(0, 65)}...`}</p>
-      <button className={styles.btn_more} onClick={toggleContent}>
-        {showFullContent ? '' : ''}
-      </button>
+      <p className={classname}>{showFullContent ? content : `${content.slice(0, slice)}...`}</p>
     </>
   );
 }

@@ -30,15 +30,6 @@ function Product() {
     Aos.init({ duration: 2000, once: true, easing: 'ease' });
   });
 
-  // console.log(items);
-
-  // function getFiltered(itemps) {
-  //   if (!itemps || itemps.length === 0) {wh
-  //     return <p>0 Produk</p>;
-  //   } else {
-  //     return <p> {itemps.length} Produk </p>;
-  //   }
-  // }
   return (
     <>
       <RootLayout tittle="Product Page">
@@ -96,7 +87,7 @@ function Product() {
                       <p>{formatIDR(elem.price)}</p>
                     </div>
                     <div className={styles.post_text}>
-                      <ReadMore content={elem.paragraph} />
+                      <ReadMore slice='65' content={elem.paragraph} />
                     </div>
                     <Link href={`Product/${elem.id}`} className={styles.post_more}>
                       Buy now

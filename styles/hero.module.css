@@ -84,15 +84,6 @@
     height: 350px;
   }
 }
-/* @media screen and (max-width: 960px) {
-  .container .right {
-    width: 30%;
-  }
-  .container .right .gambar {
-    width: 380px;
-    height: 380px;
-  }
-} */
 @media screen and (max-width: 850px) {
   .container .max .right {
     width: 40%;
@@ -122,9 +113,11 @@
 @media screen and (max-width: 450px) {
   .hero {
     padding-top: 18px;
+    padding-left: 8px;
   }
   .container .left .isi .heading {
     font-size: 28px;
+
   }
   .container .left .isi .subHeading {
     font-size: 14px;

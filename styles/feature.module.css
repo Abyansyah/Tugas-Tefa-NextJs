@@ -99,6 +99,9 @@
     }
 }
 @media screen and (max-width: 480px) {
+  .container{
+    padding: 0 60px;
+  }
   .container .right .detail_sub{
     margin-right: 20px;
   }

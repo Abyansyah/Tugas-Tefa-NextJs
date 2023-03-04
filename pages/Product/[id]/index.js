@@ -63,6 +63,19 @@ function DetailProduk({ data }) {
       <RootLayout tittle={`Produk ${data.heading}`}>
         <section className={styles.detail}>
           <div className={styles.container}>
+            <div className={styles.link}>
+              <Link className={styles.link1} href="/">
+                Home /{' '}
+              </Link>
+              <Link className={styles.link2} href="/Product">
+                {' '}
+                Product /
+              </Link>
+              <Link className={styles.link3} href={`/Product/${data.id}`}>
+                {' '}
+                {data.heading}
+              </Link>
+            </div>
             <div className={styles.content}>
               <div className={styles.left_content}>
                 <div className={styles.column_top}>

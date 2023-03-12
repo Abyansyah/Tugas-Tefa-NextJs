@@ -7,7 +7,7 @@ function Why() {
     <section className={styles.us}>
       <div className={styles.container}>
         <h1 className={styles.heading}>Why Choose us?</h1>
-        <div data-aos="fade-up" className={styles.why}>
+        <div className={styles.why}>
           <div className={styles.why_content}>
             <Image className={styles.img} src="/asset/icon/truck.svg" width={50} height={50} />
             <p className={styles.ket}>Free shipping on orders over IDR Rp 2.000.000</p>

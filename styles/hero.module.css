@@ -1,12 +1,11 @@
 .hero {
   height: 100vh;
-  background: #101012;
   width: 100%;
+  background: #F7F8FA;
 }
 .container {
   max-width: 1300px;
   padding: 0 80px;
-  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -22,13 +21,14 @@
   width: 40%;
 }
 .container .left .isi .heading {
-  color: #fff;
+  color: #000;
   font-size: 44px;
-  font-weight: 700;
+  font-weight: 600;
   font-family: 'Poppins';
 }
 .container .left .isi .subHeading {
-  color: #969696;
+  color: #000;
+  font-weight: 400;
   font-size: 16px;
   margin-top: 20px;
   font-family: 'Poppins';
@@ -37,11 +37,13 @@
   background: #2e4dec;
   margin-top: 20px;
   display: inline;
-  padding: 10px 24px;
-  border-radius: 50px;
+  padding: 10px 30px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
 }
 .container .left .isi .btn a {
-  color: #fff;
   color: #fff;
   font-size: 14px;
   font-family: 'Poppins';

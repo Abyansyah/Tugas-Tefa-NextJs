@@ -112,9 +112,6 @@ function DetailProduk({ data }) {
                 </div>
                 <div className={styles.quantity}>
                   <div className={styles.quantity_content}>
-                    <div className={styles.reset} onClick={handleReset}>
-                      <FaTrashAlt />
-                    </div>
                     <button className={`${styles.btn_min} ${quantity === 1 ? styles.btn_disable : ''} `} onClick={handleMinClick}>
                       -
                     </button>
@@ -125,9 +122,14 @@ function DetailProduk({ data }) {
                     <p className={styles.stock}>Stok : {stock}</p>
                   </div>
                 </div>
-                <button className={styles.feature_btn}>
-                  <Link href="/">Beli sekarang</Link>
-                </button>
+                <div className={styles.button}>
+                  <button className={styles.feature_btn}>
+                    <Link href="/">+ Keranjang</Link>
+                  </button>
+                  <button className={styles.beli}>
+                    <Link href="/">Beli</Link>
+                  </button>
+                </div>
               </div>
             </div>
             <div className={styles.desc}>
@@ -177,7 +179,7 @@ function DetailProduk({ data }) {
                   {data.review.map((elem, key) => (
                     <div className={styles.review_item} key={key}>
                       <div className={styles.profile}>
-                        <Image className={styles.img_review} src={elem.img} width={60} height={60} />
+                        <Image className={styles.img_review} src={elem.img} width={60} height={60} alt="foto" />
                         <div className={styles.profile_item}>
                           <h2 className={styles.profile_item_head}>{elem.name}</h2>
                           <p className={styles.job}>{elem.job}</p>

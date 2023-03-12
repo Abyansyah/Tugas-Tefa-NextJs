@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 import Footer from '../footer';
-import Navbar from '../Navbar';
+import Navigation from '../Navbar';
 
 function RootLayout({ children, tittle }) {
   return (
@@ -12,7 +12,7 @@ function RootLayout({ children, tittle }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icon.png" />
       </Head>
-      <Navbar />
+      <Navigation />
       {children}
       <Footer />
     </>

@@ -8,6 +8,8 @@
     "price": "22000000",
     "stock": 12,
     "new" : true,
+    "terjual" : 4,
+    "chas" : "Cashback",
     "paragraph": "Phantom 4 Pro V2.0 menggunakan kamera yang sama dengan Phantom 4 Pro dan dilengkapi dengan sensor 1-inch 20-megapixel yang mampu merekam video 4K / 60fps pada 100Mbps. Juga, seperti Phantom 4 Pro, V2.0 waktu penerbangan maksimum 30 menit dan kontrol jarak jauh 7-kilometer. Remote Phantom 4 Pro V2.0 juga mendukung pengalihan frekuensi 2,4 dan 5,8 GHz.",
     "feature": [
       {
@@ -84,7 +86,9 @@
     "rating": "4.8",
     "heading": "Mavic 3",
     "price": "31000000",
+    "chas" : "Cashback",
     "stock": 10,
+    "terjual" : 10,
     "paragraph": "Tangkap citra menakjubkan dengan kamera Hasselblad yang legendaris dan nikmati penerbangan mulus dengan penginderaan rintangan segala arah. Setiap peningkatan pada Mavic 3 menetapkan standar yang lebih tinggi untuk fotografi udara. Terbang dengan Mavic 3 dan temukan pencitraan di atas segalanya.",
     "feature": [
       {
@@ -154,6 +158,8 @@
     "rating": "5.0",
     "heading": "Avata",
     "new" : true,
+    "terjual" : 8,
+    "chas" : "Cashback",
     "price": "20000000",
     "stock": 14,
     "paragraph": "Benamkan diri Anda dalam perendaman total saat Anda menukik dan menyelam tidak seperti sebelumnya. Kombinasikan Avata dengan kacamata DJI untuk pengalaman terbang yang nyata",
@@ -224,6 +230,8 @@
     "rating": "4.5",
     "heading": "Mavic 3 Classic",
     "new" : true,
+    "terjual" : 9,
+    "chas" : "Cashback",
     "price": "7000000",
     "stock": 16,
     "paragraph": "Dengan performa terbang yang kuat dan kamera Hasselblad, Mavic 3 Classic menghadirkan esensi mutlak dari pencitraan unggulan. Lakukan petualangan apa pun untuk menciptakan karya yang tak terlupakan.",
@@ -294,6 +302,8 @@
     "rating": "4.9",
     "heading": "Mini 3 Pro",
     "new" : true,
+    "terjual" : 7,
+    "chas" : "Cashback",
     "price": "10000000",
     "stock": 18,
     "paragraph": "DJI Mini 3 Pro berukuran mini dan berkemampuan mega sama kuatnya dengan portabel. Beratnya kurang dari 249 g dan dengan fitur keselamatan yang ditingkatkan, tidak hanya ramah regulasi, tetapi juga yang paling aman di serinya. Dengan sensor 1/1.3-inci dan fitur tingkat atas, ini mendefinisikan ulang apa artinya menerbangkan Mini.",
@@ -363,6 +373,8 @@
     "tag": "Garansi",
     "rating": "4.8",
     "stock": 20,
+    "terjual" : 16,
+    "chas" : "Cashback",
     "heading": "Phantom 4 Pro",
     "price": "25000000",
     "paragraph": "Phantom 4 Pro V2.0 menggunakan kamera yang sama dengan Phantom 4 Pro dan dilengkapi dengan sensor 1-inch 20-megapixel yang mampu merekam video 4K / 60fps pada 100Mbps. Juga, seperti Phantom 4 Pro, V2.0 waktu penerbangan maksimum 30 menit dan kontrol jarak jauh 7-kilometer. Remote Phantom 4 Pro V2.0 juga mendukung pengalihan frekuensi 2,4 dan 5,8 GHz.",
@@ -376,6 +388,148 @@
     ],
     "img": ["/asset/Product/phantom4rtk.png", "/asset/detailP/phantom4rtk2.jpg", "/asset/detailP/phantom4rtk1.jpg", "/asset/detailP/phantom4rtk3.jpg"],
     "category": "phantom",
+    "review": [
+      {
+        "name": "Alya",
+        "job": "Front end dev",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=Alya",
+        "comment": "Admin san-gat fast respon, pelayanan sangat baik, dan produk terpercaya. Puas belanja di Wearinasia",
+        "rate": "4.8",
+        "date": "Jul 12,2022 "
+      },
+      {
+        "name": "Thoriq",
+        "job": "Graphic designer/illustrator",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=Thoriq",
+        "comment": "Pengiriman sangat cepat dan mudah Barang datang dengan keadaan baik",
+        "rate": "5.0",
+        "date": "Jun 14,2021 "
+      },
+      {
+        "name": "Varil",
+        "job": "User research specialist",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=varil",
+        "comment": "Kualitas produk sangat bagus",
+        "rate": "4.9",
+        "date": "Aug  9,2022 "
+      },
+      {
+        "name": "Fahmi",
+        "job": "Entrepreneur/startup founder",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=fahmi",
+        "comment": "Barang datang dengan keadaan baik",
+        "rate": "5.0",
+        "date": "Sep 30,2021"
+      }
+    ],
+    "detail_product": ["drone is equipped with a 20-megapixel camera capable of shooting 4K ", "he drone has sensors on all sides that enable it to avoid obstacles ", "The DJI Phantom 4 Pro has a flight time of up to 28 minutes", "The drone comes with a range of intelligent flight modes,"],
+    "specification": ["Weighs Less than 249 g", "Record Up to 4K/60fps", "34-min Max Flight Time", "Advanced RTH", "True Vertical Shooting", "MasterShots"],
+    "inbox": [
+      "Aircraft x 1",
+      "Remote control with screen x 1",
+      "Propeller x 4 pairs",
+      "Intelligent Flight Battery x 2",
+      "Gimbal lock x 1",
+      "MicroSD Card x 1",
+      "Micro USB cable x 1",
+      "USB-C cable x 1",
+      "USB-C OTG cable x 1",
+      "Wireless network card x 1",
+      "Carrying case x 1"
+    ]
+  },
+  {
+    "id": 7,
+    "image": "/asset/detailP/air.jpg",
+    "tag": "Garansi",
+    "rating": "4.7",
+    "stock": 18,
+    "terjual" : 10,
+    "chas" : "Cashback",
+    "heading": "Mavic air 2",
+    "price": "28000000",
+    "paragraph": "Mavic Air 2 menggunakan kamera yang sama dengan Phantom 4 Pro dan dilengkapi dengan sensor 1-inch 20-megapixel yang mampu merekam video 4K / 60fps pada 100Mbps. Juga, seperti Phantom 4 Pro, V2.0 waktu penerbangan maksimum 30 menit dan kontrol jarak jauh 7-kilometer. Remote Phantom 4 Pro V2.0 juga mendukung pengalihan frekuensi 2,4 dan 5,8 GHz.",
+    "feature": [
+      {
+        "camera": "4K Camera Resolution",
+        "memory": "2 TB Storage",
+        "speed": "60 m/s Speed",
+        "battery": "30-Min Max Flight Time"
+      }
+    ],
+    "img": ["/asset/detailP/air.jpg", "/asset/detailP/air1.jpg", "/asset/detailP/air2.jpg", "/asset/detailP/air3.jpg"],
+    "category": "mavic",
+    "review": [
+      {
+        "name": "Alya",
+        "job": "Front end dev",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=Alya",
+        "comment": "Admin san-gat fast respon, pelayanan sangat baik, dan produk terpercaya. Puas belanja di Wearinasia",
+        "rate": "4.8",
+        "date": "Jul 12,2022 "
+      },
+      {
+        "name": "Thoriq",
+        "job": "Graphic designer/illustrator",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=Thoriq",
+        "comment": "Pengiriman sangat cepat dan mudah Barang datang dengan keadaan baik",
+        "rate": "5.0",
+        "date": "Jun 14,2021 "
+      },
+      {
+        "name": "Varil",
+        "job": "User research specialist",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=varil",
+        "comment": "Kualitas produk sangat bagus",
+        "rate": "4.9",
+        "date": "Aug  9,2022 "
+      },
+      {
+        "name": "Fahmi",
+        "job": "Entrepreneur/startup founder",
+        "img": "https://ui-avatars.com/api/?background=random&color=fff&name=fahmi",
+        "comment": "Barang datang dengan keadaan baik",
+        "rate": "5.0",
+        "date": "Sep 30,2021"
+      }
+    ],
+    "detail_product": ["drone is equipped with a 20-megapixel camera capable of shooting 4K ", "he drone has sensors on all sides that enable it to avoid obstacles ", "The DJI Phantom 4 Pro has a flight time of up to 28 minutes", "The drone comes with a range of intelligent flight modes,"],
+    "specification": ["Weighs Less than 249 g", "Record Up to 4K/60fps", "34-min Max Flight Time", "Advanced RTH", "True Vertical Shooting", "MasterShots"],
+    "inbox": [
+      "Aircraft x 1",
+      "Remote control with screen x 1",
+      "Propeller x 4 pairs",
+      "Intelligent Flight Battery x 2",
+      "Gimbal lock x 1",
+      "MicroSD Card x 1",
+      "Micro USB cable x 1",
+      "USB-C cable x 1",
+      "USB-C OTG cable x 1",
+      "Wireless network card x 1",
+      "Carrying case x 1"
+    ]
+  },
+  {
+    "id": 8,
+    "image": "/asset/detailP/mini3a.png",
+    "tag": "Garansi",
+    "rating": "4.7",
+    "stock": 18,
+    "terjual" : 10,
+    "chas" : "Cashback",
+    "heading": "Mini 3",
+    "price": "20000000",
+    "paragraph": "Mavic Air 2 menggunakan kamera yang sama dengan Phantom 4 Pro dan dilengkapi dengan sensor 1-inch 20-megapixel yang mampu merekam video 4K / 60fps pada 100Mbps. Juga, seperti Phantom 4 Pro, V2.0 waktu penerbangan maksimum 30 menit dan kontrol jarak jauh 7-kilometer. Remote Phantom 4 Pro V2.0 juga mendukung pengalihan frekuensi 2,4 dan 5,8 GHz.",
+    "feature": [
+      {
+        "camera": "4K Camera Resolution",
+        "memory": "2 TB Storage",
+        "speed": "60 m/s Speed",
+        "battery": "30-Min Max Flight Time"
+      }
+    ],
+    "img": ["/asset/detailP/mini3a.png", "/asset/detailP/mini3a2.jpg", "/asset/detailP/mini3a1.jpg", "/asset/detailP/mini3a3.jpg"],
+    "category": "mini",
     "review": [
       {
         "name": "Alya",

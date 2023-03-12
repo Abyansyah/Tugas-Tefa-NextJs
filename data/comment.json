@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Arlando Farrel",
+    "job": "Quality Assurance",
+    "img": "/asset/reviews/Review1.png",
+    "comment": "With high resolution camera, picture become clear and beautiful. It’s so easy to operate drone."
+  },
+  {
+    "name": "Naufal Fakhri",
+    "job": "Back end dev",
+    "img": "/asset/reviews/Review.png",
+    "comment": "Taking high view video become easy and faster. Battery performance really helping for making film."
+  },
+  {
+    "name": "Zidane Fajar",
+    "job": "Front end dev",
+    "img": "/asset/reviews/Review2.png",
+    "comment": "Making video content for my trip vlog so powerful and wonderful. Love the video quality."
+  }
+]

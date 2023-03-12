@@ -6,10 +6,10 @@ function Feature() {
     <>
       <section className={styles.feature}>
         <div className={styles.container}>
-          <div data-aos="zoom-in-left" className={styles.left}>
+          <div className={styles.left}>
             <Image src="/asset/feature.png" className={styles.gambar} alt="Drone" width={350} height={350} />
           </div>
-          <div data-aos="zoom-in-right" className={styles.right}>
+          <div className={styles.right}>
             <h1 className={styles.heading}>Why DJI Phantom 4?</h1>
             <p className={styles.paragraph}>We provide a best self drone easy to use and operate. With <br/> auto pilot, the device will take a beautiful view for the <br/> best of flying operation.</p>
             <div className={styles.detail}>

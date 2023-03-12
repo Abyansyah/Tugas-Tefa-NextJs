@@ -1,6 +1,6 @@
 .detail {
-  background: #101012;
-  padding-top: 10rem;
+  background: #f7f8fa;
+  padding-top: 6rem;
 }
 .container {
   padding: 0 80px;
@@ -61,7 +61,7 @@
 .container .right_content h3 {
   font-size: 38px;
   font-weight: 600;
-  color: #fff;
+  color: #000;
 }
 .container .right_content .paragraph {
   font-size: 20px;
@@ -71,12 +71,12 @@
 .container .right_content .price {
   font-size: 28px;
   font-weight: 700;
-  color: #fff;
+  color: #000;
 }
 .container .right_content .right_fe {
   font-size: 20px;
   font-weight: 400;
-  color: #fff;
+  color: #000;
 }
 .right_content .features {
   display: flex;
@@ -102,7 +102,14 @@
   display: inline;
   background: #2e4dec;
   border: none;
-  width: 80%;
+  border-radius: 50px;
+}
+.beli {
+  margin-top: 20px;
+  padding: 8px 20px;
+  color: #fff;
+  background: #2e4dec;
+  border: none;
   border-radius: 50px;
 }
 .right_content .quantity {
@@ -124,7 +131,7 @@
   cursor: pointer;
 }
 .right_content .stock {
-  color: #fff;
+  color: #000;
 }
 .reset svg {
   font-size: 20px;
@@ -134,7 +141,7 @@
 .right_content .quantity .quantity_content .input_quantity {
   text-align: center;
   background: none;
-  color: #fff;
+  color: #000;
   width: 80px;
   height: 40px;
   border: 2px solid #6f7c7c;
@@ -177,7 +184,7 @@
 .desc .item .item_head {
   font-size: 24px;
   font-weight: 600;
-  color: #fff;
+  color: #000;
 }
 .desc .item .item_des {
   color: #6f7c7c;
@@ -201,7 +208,7 @@
   row-gap: 14px;
 }
 .review .review_head {
-  color: #fff;
+  color: #000;
   font-size: 24px;
   font-weight: 600;
 }
@@ -212,7 +219,7 @@
   row-gap: 20px;
   width: 48%;
   border-radius: 4px;
-  border: 1px solid #fff;
+  border: 1px solid #e5e5e5;
 }
 .review .profile {
   display: flex;
@@ -229,7 +236,8 @@
 }
 .review .profile_item_head {
   font-size: 18px;
-  color: #fff;
+  color: #000;
+  font-weight: 500;
 }
 .review .job {
   font-size: 14px;
@@ -241,11 +249,11 @@
   row-gap: 10px;
 }
 .review .comment .p_comment {
-  color: #fff;
+  color: #000;
   font-size: 16px;
 }
 .review .comment .rating {
-  color: #fff;
+  color: #000;
 }
 .review .comment .p_date {
   color: #6f7c7c;
@@ -269,7 +277,7 @@
   width: 100%;
 }
 .spec .spec_head {
-  color: #fff;
+  color: #000;
 }
 .spec .feature_list {
   display: flex;
@@ -288,7 +296,7 @@
   color: #6f7c7c;
 }
 .link3 {
-  color: #fff;
+  color: #000;
 }
 
 @media screen and (max-width: 1100px) {

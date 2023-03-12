@@ -1,11 +1,7 @@
 import { useState } from 'react';
 
 function ReadMore({ content, slice, classname }) {
-  const [showFullContent, setShowFullContent] = useState(false);
-
-  const toggleContent = () => {
-    setShowFullContent(!showFullContent);
-  };
+  const [showFullContent] = useState(false);
 
   return (
     <>

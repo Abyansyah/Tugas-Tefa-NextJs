@@ -1,68 +1,77 @@
-import React, { useEffect, useState } from 'react';
-import styles from '../styles/navbar.module.css'
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaHome, FaShoppingBag, FaUser, FaEnvelope } from 'react-icons/fa';
+import styles from 'ahmad/styles/navbar.module.css';
+import { useRouter } from 'next/router';
 
 function Navbar() {
-  const [showMenu, setShowMenu] = useState(false);
-  const [navbar, setNavbar] = useState(false);
+  const [scroll, setScroll] = useState(false);
+  const router = useRouter();
 
-  const toogleNav = () => {
-    setShowMenu(!showMenu);
-  };
-
-  const changeBackground = () => {
-    if (typeof window !== 'undefined' && window.scrollY >= 100) {
-      setNavbar(true);
+  const handleScroll = () => {
+    if (window.scrollY >= 60) {
+      setScroll(true);
     } else {
-      setNavbar(false);
+      setScroll(false);
     }
   };
-  useEffect(() => {
-    window.addEventListener('scroll', changeBackground);
 
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener('scroll', changeBackground);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
-  const closeNav = () => {
-    setShowMenu(false);
+  const isLinkActive = (href) => {
+    return router.pathname === href;
   };
 
   return (
     <>
-      <nav className={navbar ? `${styles.navbar} ${styles.active}` : styles.navbar}>
-        <Link href="/" >
-          <h1 className={styles.title}>
+      <header className={scroll ? `${styles.header} ${styles.scroll_header}` : styles.header}>
+        <nav className={`${styles.nav} ${styles.container}`}>
+          <Link href="/" className={styles.nav_logo}>
             GJI<span className={styles.dot}>.</span>
-          </h1>
-        </Link>
+          </Link>
 
-        <div className={showMenu ? `${styles.menu} ${styles.mobile_menu}` : styles.menu} onClick={closeNav}>
-          <ul className={styles.menu_item} >
-            <i className={styles.famatime} onClick={toogleNav}>
-              <FaTimes />
-            </i>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/Product">Product</Link>
-            </li>
-            <li>
-              <Link href="/About">About</Link>
-            </li>
-            <li>
-              <Link href="/Contact">Contact</Link>
-            </li>
-          </ul>
-        </div>
-        <div onClick={toogleNav} className={styles.fa_bars}>
-          <FaBars />
-        </div>
-        <div className={showMenu ? `${styles.over} ${styles.actived}` : styles.over}></div>
-      </nav>
+          <div className={styles.nav_menu}>
+            <ul className={styles.nav_list}>
+              <li className={styles.nav_item}>
+                <Link href="/" className={`${styles.nav_link} ${isLinkActive('/') ? styles.active_link : ''} `}>
+                  <FaHome className={styles.nav_icon} />
+                  <span className={styles.nav_name}>Home</span>
+                </Link>
+              </li>
+
+              <li className={styles.nav_name}>
+                <Link href="/Product" className={`${styles.nav_link} ${isLinkActive('/Product') ? styles.active_link : ''} `}>
+                  <FaShoppingBag className={styles.nav_icon} />
+
+                  <span className={styles.nav_name}>Product</span>
+                </Link>
+              </li>
+
+              <li className={styles.nav_name}>
+                <Link href="/About" className={`${styles.nav_link} ${isLinkActive('/About') ? styles.active_link : ''} `}>
+                  <FaUser className={styles.nav_icon} />
+
+                  <span className={styles.nav_name}>About</span>
+                </Link>
+              </li>
+
+              <li className={styles.nav_name}>
+                <Link href="/Contact" className={`${styles.nav_link} ${isLinkActive('/Contact') ? styles.active_link : ''} `}>
+                  <FaEnvelope className={styles.nav_icon} />
+
+                  <span className={styles.nav_name}>Contact</span>
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <FaEnvelope className={styles.nav_img} />
+        </nav>
+      </header>
     </>
   );
 }

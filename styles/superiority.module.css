@@ -1,15 +1,14 @@
 .detail {
-  background: #000;
+  background: #fff;
 }
 .container {
-  width: 100%;
-  padding: 0 80px;
+  padding: 0 20px;
   display: flex;
   justify-content: space-evenly;
 }
 .heading {
   text-align: center;
-  color: #fff;
+  color: #222;
   font-size: 34px;
   margin-bottom: 40px;
 }
@@ -26,8 +25,8 @@
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
 }
 .container .left .left_content h1 {
   padding-top: 100px;
@@ -58,8 +57,8 @@
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
 }
 .container .right .right_content h1 {
   padding-top: 100px;

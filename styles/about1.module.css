@@ -1,5 +1,4 @@
 .about {
-  padding-top: 6rem;
   background: #f7f8fa;
 }
 .heading1 {
@@ -21,9 +20,9 @@
 .btn {
   padding: 10px 20px;
   background: #2e4dec;
+  border: none;
   border-radius: 4px;
   color: #fff;
-  border: none;
   display: inline;
   cursor: pointer;
 }

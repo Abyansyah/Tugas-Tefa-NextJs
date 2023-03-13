@@ -203,17 +203,23 @@ function DetailProduk({ data }) {
 }
 
 export async function getStaticPaths() {
-  const paths = Data.map((item) => ({
-    params: { id: item.id.toString() },
-  }));
-
-  return { paths, fallback: false };
+  try {
+    const paths = await Data.map((item) => ({
+      params: { id: item.id.toString() },
+    }));
+    return { paths, fallback: false };
+  } catch (error) {
+    console.log('Error Cuy');
+  }
 }
 
 export async function getStaticProps({ params }) {
-  const data = Data.find((item) => item.id.toString() === params.id);
-
-  return { props: { data } };
+  try {
+    const data = await Data.find((item) => item.id.toString() === params.id);
+    return { props: { data } };
+  } catch (error) {
+    console.log('Error Cuy');
+  }
 }
 
 export default DetailProduk;

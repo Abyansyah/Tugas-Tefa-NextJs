@@ -1,5 +1,4 @@
 import { useState, useRef, useEffect } from 'react';
-import { useRouter } from 'next/router';
 import styles from 'ahmad/styles/detail.module.css';
 import Image from 'next/image';
 import { FaCamera, FaMemory, FaBatteryFull } from 'react-icons/fa';
@@ -60,7 +59,6 @@ function DetailProduk({ data }) {
     <>
       <RootLayout tittle={`Produk ${data.heading}`}>
         <section className={styles.detail}>
-          <ToastContainer position="top-center" autoClose={1000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover theme="light" />
           <div className={styles.container}>
             <div className={styles.link}>
               <Link className={styles.link1} href="/">
@@ -122,12 +120,8 @@ function DetailProduk({ data }) {
                   </div>
                 </div>
                 <div className={styles.button}>
-                  <button className={styles.feature_btn}>
-                    + Keranjang
-                  </button>
-                  <button className={styles.beli}>
-                    Beli Sekarang
-                  </button>
+                  <button className={styles.feature_btn}>+ Keranjang</button>
+                  <button className={styles.beli}>Beli Sekarang</button>
                 </div>
               </div>
             </div>

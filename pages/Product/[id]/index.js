@@ -8,10 +8,6 @@ import RootLayout from 'ahmad/components/Layout';
 import Link from 'next/link';
 import Data from '../../../data/data.json';
 import DetailImg from 'ahmad/components/detailimg';
-import { useContext } from 'react';
-import { CartContext } from 'ahmad/hooks/cartcontexts';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 
 function DetailProduk({ data }) {
   const [product] = useState(data);

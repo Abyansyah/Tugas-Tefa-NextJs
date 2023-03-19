@@ -15,8 +15,6 @@ function DetailProduk({ data }) {
   const [quantity, setQuantity] = useState(1);
   const [index, setIndex] = useState(0);
   const myRef = useRef(null);
-  const { updateItemCount } = useContext(CartContext);
-  const router = useRouter();
 
   const handleTab = (index) => {
     setIndex(index);

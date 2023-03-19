@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import styles from 'ahmad/styles/detail.module.css';
 import Image from 'next/image';
-import { FaCamera, FaMemory, FaBatteryFull, FaTrashAlt } from 'react-icons/fa';
+import { FaCamera, FaMemory, FaBatteryFull } from 'react-icons/fa';
 import { MdSpeed } from 'react-icons/md';
 import RootLayout from 'ahmad/components/Layout';
 import Link from 'next/link';

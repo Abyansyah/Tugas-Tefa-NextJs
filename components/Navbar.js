@@ -61,7 +61,7 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          <Link>
+          <Link href='/'>
             <div className={styles.cart}>
               <FaShoppingCart color="black" className={styles.nav_img} />
             </div>

@@ -6,7 +6,7 @@
 .header {
   position: fixed;
   top: 0;
-  left: 0;  
+  left: 0;
   width: 100%;
   background-color: #f7f8fa;
   z-index: 100;
@@ -21,6 +21,10 @@
 .nav_img {
   width: 32px;
   border-radius: 50%;
+  cursor: pointer;
+}
+.link{
+  background: none;
 }
 .nav_logo {
   color: hsl(174, 12%, 15%);
@@ -35,7 +39,21 @@
 .nav_link {
   display: flex;
 }
-
+.cart {
+  position: relative;
+}
+.num {
+  position: absolute;
+  background: #2e4dec;
+  width: 20px;
+  right: -5px;
+  top: -9px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  border-radius: 100px;
+}
 .nav_link {
   flex-direction: column;
   align-items: center;
@@ -123,9 +141,7 @@
   .nav {
     height: 5rem;
   }
-  .nav_img {
-    display: none;
-  }
+
   .nav_icon {
     display: none;
   }

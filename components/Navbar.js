@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { FaHome, FaShoppingBag, FaUser, FaEnvelope } from 'react-icons/fa';
+import { FaHome, FaShoppingBag, FaUser, FaShoppingCart } from 'react-icons/fa';
 import styles from 'ahmad/styles/navbar.module.css';
 import { useRouter } from 'next/router';
 
@@ -59,17 +59,14 @@ function Navbar() {
                   <span className={styles.nav_name}>About</span>
                 </Link>
               </li>
-
-              <li className={styles.nav_name}>
-                <Link href="/Contact" className={`${styles.nav_link} ${isLinkActive('/Contact') ? styles.active_link : ''} `}>
-                  <FaEnvelope className={styles.nav_icon} />
-
-                  <span className={styles.nav_name}>Contact</span>
-                </Link>
-              </li>
             </ul>
           </div>
-          <FaEnvelope className={styles.nav_img} />
+          <Link href="/Cart">
+            <div className={styles.cart}>
+              <FaShoppingCart color='black' className={styles.nav_img} />
+              
+            </div>
+          </Link>
         </nav>
       </header>
     </>

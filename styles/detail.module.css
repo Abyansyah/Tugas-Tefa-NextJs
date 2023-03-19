@@ -95,22 +95,30 @@
   font-size: 18px;
   font-weight: 300;
 }
+.button {
+  display: flex;
+  column-gap: 4px;
+}
 .right_content .feature_btn {
   margin-top: 20px;
-  padding: 8px 20px;
+  width: 40%;
+  padding: 8px 0;
   color: #fff;
   display: inline;
   background: #2e4dec;
   border: none;
   border-radius: 50px;
+  cursor: pointer;
 }
 .beli {
   margin-top: 20px;
-  padding: 8px 20px;
-  color: #fff;
-  background: #2e4dec;
-  border: none;
+  width: 40%;
+  font-weight: 500;
+  color: #2e4dec  ;
+  border: 1px solid #2e4dec;
+  background: #fff;
   border-radius: 50px;
+  cursor: pointer;
 }
 .right_content .quantity {
   padding-top: 20px;

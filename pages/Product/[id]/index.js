@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import { useRouter } from 'next/router';
 import styles from 'ahmad/styles/detail.module.css';
 import Image from 'next/image';
 import { FaCamera, FaMemory, FaBatteryFull, FaTrashAlt } from 'react-icons/fa';
@@ -7,6 +8,10 @@ import RootLayout from 'ahmad/components/Layout';
 import Link from 'next/link';
 import Data from '../../../data/data.json';
 import DetailImg from 'ahmad/components/detailimg';
+import { useContext } from 'react';
+import { CartContext } from 'ahmad/hooks/cartcontexts';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function DetailProduk({ data }) {
   const [product] = useState(data);
@@ -14,6 +19,8 @@ function DetailProduk({ data }) {
   const [quantity, setQuantity] = useState(1);
   const [index, setIndex] = useState(0);
   const myRef = useRef(null);
+  const { updateItemCount } = useContext(CartContext);
+  const router = useRouter();
 
   const handleTab = (index) => {
     setIndex(index);
@@ -50,9 +57,6 @@ function DetailProduk({ data }) {
     }
   };
 
-  const handleReset = () => {
-    setQuantity(1);
-  };
   useEffect(() => {
     const images = myRef.current.children;
     images[index].className = `${styles.active}`;
@@ -62,6 +66,7 @@ function DetailProduk({ data }) {
     <>
       <RootLayout tittle={`Produk ${data.heading}`}>
         <section className={styles.detail}>
+          <ToastContainer position="top-center" autoClose={1000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover theme="light" />
           <div className={styles.container}>
             <div className={styles.link}>
               <Link className={styles.link1} href="/">
@@ -124,10 +129,10 @@ function DetailProduk({ data }) {
                 </div>
                 <div className={styles.button}>
                   <button className={styles.feature_btn}>
-                    <Link href="/">+ Keranjang</Link>
+                    + Keranjang
                   </button>
                   <button className={styles.beli}>
-                    <Link href="/">Beli</Link>
+                    Beli Sekarang
                   </button>
                 </div>
               </div>

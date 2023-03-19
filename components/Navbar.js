@@ -61,10 +61,9 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          <Link href="/Cart">
+          <Link>
             <div className={styles.cart}>
-              <FaShoppingCart color='black' className={styles.nav_img} />
-              
+              <FaShoppingCart color="black" className={styles.nav_img} />
             </div>
           </Link>
         </nav>

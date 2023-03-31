@@ -44,7 +44,9 @@ This project is used by the following companies:
 - Short by Category
 
 ## Documentation
-![Web capture_2-3-2023_204124_localhost](https://user-images.githubusercontent.com/80156805/222445412-b7450e24-9ac4-4f01-8dbd-e0a9139f23fa.jpeg)
+![mobile (3)](https://user-images.githubusercontent.com/80156805/229135540-bb938d6d-3409-4bd6-9a76-c0689f2b4c98.png)
+![mobile (4)](https://user-images.githubusercontent.com/80156805/229135564-794d24ef-8564-4ac1-bf6a-0b0ef89dc2d0.png)
+
 
 
 ## Deployment

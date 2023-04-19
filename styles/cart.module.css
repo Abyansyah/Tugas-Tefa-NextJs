@@ -1,0 +1,21 @@
+.container {
+  padding: 80px 80px;
+}
+.list {
+  display: flex;
+}
+.list_left{
+    display: flex;
+    flex-direction: column;
+}
+.cart {
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.cart_item {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}

@@ -3,9 +3,12 @@ import Link from 'next/link';
 import { FaHome, FaShoppingBag, FaUser, FaShoppingCart } from 'react-icons/fa';
 import styles from 'ahmad/styles/navbar.module.css';
 import { useRouter } from 'next/router';
+import { useContext } from 'react';
+import { CartContext } from 'ahmad/hooks/cartcontexts';
 
 function Navbar() {
   const [scroll, setScroll] = useState(false);
+  const { itemCount } = useContext(CartContext);
   const router = useRouter();
 
   const handleScroll = () => {
@@ -61,9 +64,10 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          <Link href='/'>
+          <Link href="/Cart">
             <div className={styles.cart}>
               <FaShoppingCart color="black" className={styles.nav_img} />
+              {itemCount > 0 && <span className={styles.num}>{itemCount}</span>}
             </div>
           </Link>
         </nav>

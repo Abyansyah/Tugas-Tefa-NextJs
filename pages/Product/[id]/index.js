@@ -1,12 +1,17 @@
 import { useState, useRef, useEffect } from 'react';
+import { useRouter } from 'next/router';
 import styles from 'ahmad/styles/detail.module.css';
 import Image from 'next/image';
-import { FaCamera, FaMemory, FaBatteryFull } from 'react-icons/fa';
+import { FaCamera, FaMemory, FaBatteryFull, FaTrashAlt } from 'react-icons/fa';
 import { MdSpeed } from 'react-icons/md';
 import RootLayout from 'ahmad/components/Layout';
 import Link from 'next/link';
 import Data from '../../../data/data.json';
 import DetailImg from 'ahmad/components/detailimg';
+import { useContext } from 'react';
+import { CartContext } from 'ahmad/hooks/cartcontexts';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function DetailProduk({ data }) {
   const [product] = useState(data);
@@ -14,6 +19,8 @@ function DetailProduk({ data }) {
   const [quantity, setQuantity] = useState(1);
   const [index, setIndex] = useState(0);
   const myRef = useRef(null);
+  const { updateItemCount } = useContext(CartContext);
+  const router = useRouter();
 
   const handleTab = (index) => {
     setIndex(index);
@@ -29,6 +36,46 @@ function DetailProduk({ data }) {
       style: 'currency',
       currency: 'IDR',
     }).format(amount);
+  };
+
+  const notify = () => {
+    toast.success(`${quantity} produk telah dimasukkan`, {
+      position: 'top-center',
+      autoClose: 1000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: 'light',
+    });
+  };
+
+  const addToCart = (product, quantity) => {
+    const getLocal = JSON.parse(localStorage.getItem('cartItems')) || [];
+    const index = getLocal.findIndex((item) => item.id === product.id);
+
+    if (index !== -1) {
+      getLocal[index].quantity += quantity;
+    } else {
+      getLocal.push({
+        id: product.id,
+        name: product.heading,
+        price: product.price,
+        img: product.image,
+        quantity: quantity,
+      });
+    }
+
+    localStorage.setItem('cartItems', JSON.stringify(getLocal));
+    const itemCount = getLocal.reduce((acc, item) => acc + item.quantity, 0);
+    updateItemCount(itemCount);
+    notify();
+  };
+
+  const beliNow = () => {
+    addToCart(product, quantity);
+    router.push('/Cart');
   };
 
   const handleQuantityChange = (event) => {
@@ -59,6 +106,7 @@ function DetailProduk({ data }) {
     <>
       <RootLayout tittle={`Produk ${data.heading}`}>
         <section className={styles.detail}>
+          <ToastContainer position="top-center" autoClose={1000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover theme="light" />
           <div className={styles.container}>
             <div className={styles.link}>
               <Link className={styles.link1} href="/">
@@ -120,8 +168,12 @@ function DetailProduk({ data }) {
                   </div>
                 </div>
                 <div className={styles.button}>
-                  <button className={styles.feature_btn}>+ Keranjang</button>
-                  <button className={styles.beli}>Beli Sekarang</button>
+                  <button onClick={() => addToCart(product, quantity)} className={styles.feature_btn}>
+                    + Keranjang
+                  </button>
+                  <button onClick={beliNow} className={styles.beli}>
+                    Beli Sekarang
+                  </button>
                 </div>
               </div>
             </div>

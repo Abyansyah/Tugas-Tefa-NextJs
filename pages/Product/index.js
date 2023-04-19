@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styles from '../../styles/product.module.css';
 import Menu from '../../data/data.json';
-import 'aos/dist/aos.css';
 import Link from 'next/link';
 import ReadMore from 'ahmad/components/readmore';
 import RootLayout from 'ahmad/components/Layout';
